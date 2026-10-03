@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.fphudconfig.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.fphudconfig.mixin.FpHudConfigMixinPlugin",
+  "refmap": "fphudconfig.refmap.json",
+  "client": [
+    "PlateHudOverlayMixin",
+    "StaminaHudRendererMixin",
+    "StaminaEventsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
